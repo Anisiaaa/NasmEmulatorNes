@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=NES Emulator
+Comment=Launch the NES emulator
+Exec=sh -c "cd \"\$(dirname \"\$1\")\" && exec \"./NES Emulator.sh\"" sh %k
+Icon=applications-games
+Terminal=false
+Categories=Game;Emulator;
+StartupNotify=true

@@ -1,0 +1,38 @@
+# CMake and compiled output
+/build/
+/build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Runtime and generated diagnostics
+*.log
+*.ppm
+*.dump
+*.trace
+nestest_out.log
+
+# Locally supplied ROMs and emulator test images
+# Do not commit copyrighted commercial ROMs.
+*.nes
+
+# Local TAS recordings
+/speedruns/*
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Local binaries
+/nes_emulator
+*.o
+*.obj
+
+# Temporary validation builds
+/.build-check/
