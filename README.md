@@ -1,6 +1,7 @@
 # NES Emulator
 
-A Linux-focused NES emulator written in C++17 and x86-64 NASM assembly. It
+A Linux-focused NES emulator written in C++17 with performance-critical 
+CPU, timing, and hardware routines implemented in x86-64 NASM assembly. It
 uses SDL2 for windowing and rendering and Dear ImGui for the debugger and user
 interface.
 
